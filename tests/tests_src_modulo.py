@@ -4,7 +4,7 @@ from src.modulo import func
 
 class Tests(TestCase):
     def test_somente_uma_pedra_retornando_quantidade_3(self):
-        resultado = func(pedras="Se", joia="Selenium")
+        resultado = func(pedras="a", joia="Aaaa")
         self.assertEqual(resultado, 3)
 
     def test_2_pedras_retornando_quantidade_5(self):
